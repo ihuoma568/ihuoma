@@ -8,5 +8,8 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Say Hello To March Cohort
-        run: echo "You are all welcome to class"
+        run: |
+          echo "Hello from Teacher"
+          echo "welcome to class"
+          echo "learning CI/CD is sweet"
         
